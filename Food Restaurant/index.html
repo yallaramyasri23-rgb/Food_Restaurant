@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPICE FUSION</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
+            background-color: #f1f1f1;
+            color: #333333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: orangered;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #495057;
+        }
+        nav a {
+            color: #fff;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #007bff;
+        }
+        .hero {
+            background-image: url('./3.jpeg') ;
+            background-size: cover;
+            height: 400px;
+            color: #fff;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity:10 ;
+        }
+        .hero h1 {
+            font-size: 3em;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+        .menu, .about, .contact {
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+        }
+        .menu h2, .about h2, .contact h2 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        .menu-items {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .menu-item {
+            background-color: #f1f1f1;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .menu-item img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .menu-item h3 {
+            margin-top: 10px;
+            font-size: 1.5em;
+        }
+        .menu-item p {
+            color: #666;
+        }
+        .menu-item .price {
+            font-weight: bold;
+            color: #007bff;
+            margin-top: 10px;
+        }
+        footer {
+            background-color:orangered;
+            color:white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>SPICE FUSION</h1>
+    <p>Delicious Food, Cozy Atmosphere</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#menu">Menu</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="hero">
+    <h1>WELCOME TO SPICE FUSION</h1>
+</div>
+
+<div id="menu" class="container menu">
+    <h2>Our Menu</h2>
+    <div class="menu-items">
+        <div class="menu-item">
+            <img src="chicken.jpeg" alt="Starter 1">
+            <h3>Chicken Mejestic</h3>
+            <p>A delicious blend of spices and flavors to kickstart your meal.</p>
+            <div class="price">Rs.200</div>
+        </div>
+        <div class="menu-item">
+            <img src="lollipop.jpeg" alt="Starter 2">
+            <h3>Chicken lollipop</h3>
+            <p>Fresh ingredients combined to create a mouth-watering appetizer.</p>
+            <div class="price">Rs.250</div>
+        </div>
+        <div class="menu-item">
+            <img src="biryani.jpg" alt="Main Course 1" height="200">
+            <h3>Spice chicken fry biryani</h3>
+            <p>A hearty dish that satisfies your hunger and taste buds.</p>
+            <div class="price">Rs.349</div>
+        </div>
+        <div class="menu-item">
+            <img src="keema.jpeg" alt="Main Course 2">
+            <h3>Mutton keema</h3>
+            <p>Succulent and flavorful, a favorite among our regulars.</p>
+            <div class="price">Rs.399</div>
+        </div>
+        <div class="menu-item">
+            <img src="ice cream.jpeg" alt="Dessert 1">
+            <h3>Gulab jamun &vanilla ice cream</h3>
+            <p>Sweet and indulgent, the perfect end to your meal.</p>
+            <div class="price">Rs.180</div>
+        </div>
+        <div class="menu-item">
+            <img src="cake.jpeg" alt="Dessert 2" height="200">
+            <h3>black forest</h3>
+            <p>A delightful treat that leaves you wanting more.</p>
+            <div class="price">Rs.150</div>
+        </div>
+    </div>
+</div>
+
+<div id="about" class="container about">
+    <h2>About Us</h2>
+    <p>It's like spice food-sometimes you have to tone it down so more people can enjoy it.</p>
+    <!-- Add information about your restaurant here -->
+</div>
+
+<div id="contact" class="container contact"  >
+    <h2>Contact Us</h2>
+    <p>Ph no:9398304008</p>
+    <p> Address:Gajuwaka</p>
+    <p>bc.road junction</p>
+    <div style=" border:#333333"
+    <!-- Add contact details and a contact form here -->
+</div>
+
+<footer>
+    <p>&copy; 2025 SPICE FUSION. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
